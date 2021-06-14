@@ -2,7 +2,7 @@ package io.spring.guides.gs_producing_web_service;
 
 /**
  * @author Tharindu Eranga
- * @date Wed 19 May 2021
+ * @date Mon 14 Jun 2021
  */
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
