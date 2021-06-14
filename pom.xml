@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>io.spring.guides.gs_producing_web_service</groupId>
 	<artifactId>soap_demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-ALPHA</version>
 	<name>soap_demo</name>
-	<description>Soap project for Spring Boot</description>
+	<description>Emulator for Vodafone SOAP API</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -42,6 +42,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>adecore-vcash-soap-emulator</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
